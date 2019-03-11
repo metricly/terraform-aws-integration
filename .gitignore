@@ -6,3 +6,6 @@
 
 # ignore Terraform backup files
 **/*.backup
+
+# ignore Terraform config directory
+**/.terraform/
