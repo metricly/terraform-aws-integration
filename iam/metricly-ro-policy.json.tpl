@@ -49,8 +49,8 @@
                 "s3:List*"
             ],
             "Resource": [
-                "arn:aws:s3:::arn:aws:s3:::test-metricly-001-detailed-billing/*",
-                "arn:aws:s3:::test-metricly-001-detailed-billing"
+                "arn:aws:s3:::arn:aws:s3:::${tpl_detailed_billing_bucket}/*",
+                "arn:aws:s3:::${tpl_detailed_billing_bucket}"
             ]
         }
     ]
