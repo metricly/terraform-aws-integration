@@ -3,4 +3,4 @@
 #   external_id = "01234567-89ab-cdef-0123-456789ab"
 
 detailed_billing_bucket = ""
-external_id = "" 
+external_id = ""
