@@ -7,5 +7,7 @@ For detailed information on this package, please refer to the [online documentat
 
 ## Setup
 1. Clone the repository
-2. Edit terraform.tfvars to add your S3 detailed billing bucket name
-3. Run the Terraform plan
+2. Edit the variables in terraform.tfvars to include:
+   - The **name of the S3 bucket** in which your detailed billing reports are generated
+   - Your **external ID** (this can be found in the Metricly console under Integrations > AWS > Authentication)
+3. Apply the Terraform plan
